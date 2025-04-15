@@ -1,0 +1,13 @@
+{
+  "name": "desafio-nodejs-01",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch ./src/server.js",
+    "import": "node ./src/scripts/importTasksToCsv.js"
+  },
+  "author": "Kauan Carvalho",
+  "packageManager": "pnpm@10.5.2",
+  "dependencies": {
+    "csv-parse": "^5.6.0"
+  }
+}
