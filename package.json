@@ -3,9 +3,10 @@
   "type": "module",
   "scripts": {
     "dev": "node --watch ./src/server.js",
-    "import": "node ./src/scripts/importTasksToCsv.js"
+    "import": "node ./src/scripts/import-tasks-to-csv.js"
   },
   "author": "Kauan Carvalho",
+  "license": "MIT",
   "packageManager": "pnpm@10.5.2",
   "dependencies": {
     "csv-parse": "^5.6.0"

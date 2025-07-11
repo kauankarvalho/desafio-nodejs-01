@@ -1,6 +1,5 @@
 import { randomUUID } from "node:crypto"
-
-import { Database } from "../database/database.js"
+import { Database } from "../db/database.js"
 import { buildRoutePath } from "../utils/buildRoutePath.js"
 
 const database = new Database()
