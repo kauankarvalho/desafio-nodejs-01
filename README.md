@@ -30,9 +30,11 @@ A aplicação consiste em uma API para cadastro, listagem, atualização, remoç
    ```
 
 2. **Instale as dependências:**
+
    ```bash
    pnpm install
    ```
+
    > 💡 Você pode usar `npm` ou `yarn` se preferir, mas o projeto utiliza `pnpm`.
 
 ---
@@ -48,7 +50,9 @@ A aplicação consiste em uma API para cadastro, listagem, atualização, remoç
   O servidor ficará disponível em `http://localhost:5555`.
 
 - **Importe tarefas a partir de um arquivo CSV:**
+
   Coloque o arquivo `tasks.csv` na pasta `uploads/` e execute:
+
   ```bash
   pnpm import
   ```
@@ -105,19 +109,19 @@ A aplicação consiste em uma API para cadastro, listagem, atualização, remoç
 ```
 src/
   db/
-    database.js           # Lógica de persistência dos dados em arquivo
+    database.js              # Lógica de persistência dos dados em arquivo
   middleware/
-    json.js               # Middleware para parse de JSON nas requisições
+    json.js                  # Middleware para parse de JSON nas requisições
   routes/
-    routes.js             # Definição das rotas da API
+    routes.js                # Definição das rotas da API
   scripts/
-    import-tasks-to-csv.js# Script para importar tarefas de um CSV
+    import-tasks-to-csv.js   # Script para importar tarefas de um CSV
   utils/
-    build-rout-path.js    # Utilitário para construir regex de rotas
-    extract-query-params.js # Utilitário para extrair query params
-  server.js               # Inicialização do servidor HTTP
+    build-rout-path.js       # Utilitário para construir regex de rotas
+    extract-query-params.js  # Utilitário para extrair query params
+  server.js                  # Inicialização do servidor HTTP
 uploads/
-  tasks.csv               # 📂 Exemplo de arquivo CSV para importação
+  tasks.csv                  # 📂 Exemplo de arquivo CSV para importação
 ```
 
 ---
