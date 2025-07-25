@@ -2,7 +2,7 @@
   "name": "desafio-nodejs-01",
   "type": "module",
   "scripts": {
-    "dev": "node --watch ./src/server.js",
+    "start:dev": "node --watch ./src/server.js",
     "import": "node ./src/scripts/import-tasks-to-csv.js"
   },
   "author": "Kauan Carvalho",
