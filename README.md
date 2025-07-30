@@ -1,4 +1,4 @@
-# Desafio Node.js 01
+<h1 align="center">Desafio NodeJS - 01</h1>
 
 Este projeto foi desenvolvido durante uma aula da formação Node.js da [Rocketseat](https://rocketseat.com.br/). O objetivo é criar uma API REST para gerenciamento de tarefas (ToDo), utilizando apenas Node.js puro, sem frameworks como Express.
 
@@ -12,13 +12,9 @@ Este projeto foi desenvolvido durante uma aula da formação Node.js da [Rockets
 - [🗂️ Estrutura do Projeto](#estrutura-do-projeto)
 - [📄 Licença](#licença)
 
----
-
 ## 📝 Descrição
 
 A aplicação consiste em uma API para cadastro, listagem, atualização, remoção e marcação de tarefas como concluídas. Os dados são armazenados em um arquivo local (`db.json`), simulando um banco de dados.
-
----
 
 ## ⚙️ Instalação
 
@@ -37,8 +33,6 @@ A aplicação consiste em uma API para cadastro, listagem, atualização, remoç
 
    > 💡 Você pode usar `npm` ou `yarn` se preferir, mas o projeto utiliza `pnpm`.
 
----
-
 ## 🚀 Como usar
 
 - **Inicie o servidor em modo desenvolvimento:**
@@ -56,8 +50,6 @@ A aplicação consiste em uma API para cadastro, listagem, atualização, remoç
   ```bash
   pnpm import
   ```
-
----
 
 ## 🔗 Rotas da API
 
@@ -95,14 +87,10 @@ A aplicação consiste em uma API para cadastro, listagem, atualização, remoç
 - **DELETE `/tasks/:id`**
   - Remove uma tarefa pelo ID.
 
----
-
 ## 🛠️ Scripts
 
 - `start:dev`: Inicia o servidor com hot reload.
 - `import`: Importa tarefas do arquivo `uploads/tasks.csv` para a API.
-
----
 
 ## 🗂️ Estrutura do Projeto
 
@@ -124,10 +112,6 @@ uploads/
   tasks.csv                  # 📂 Exemplo de arquivo CSV para importação
 ```
 
----
-
 ## 📄 Licença
 
-Este projeto está sob a licença MIT.
-
----
+Este projeto está licenciado sob a licença MIT. Consulte o arquivo [LICENSE](./LICENSE) para mais informações.
